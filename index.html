@@ -9,16 +9,29 @@
     <title>Opiniated</title>
 </head>
 <body>
-
-        <div class ="index"><h1>  <i>Untitled</i></h1> <p>by the Sultan</p> </div>
+    <div class="container">
+    <!-- <canvas id="canvas"></canvas> -->
+        <div class ="index">
+            
+            <h1>  <i>Untitled</i></h1> <p>by the Sultan</p>
+        </div>
         <hr>
-        <h2>Index</h2> </p>
-        <li>
-            <ul><a href ="">India in Olympics</a></ul>
-        </li>
-            <p>This is a sample testing opnion for the blog</p>
+        <div class="wrap">
+            <div class="search">
+               <input type="text" id="myInput" onkeyup="myFunction()" class="searchTerm" placeholder="Search a topic">
+               <button type="submit" class="searchButton">
+                 <i class="fa fa-search"></i>
+              </button>
+            </div>
+         </div>
+        <h2>Index</h2> 
+        <ol id="myUL">
+            <li><a href ="#" >India in Olympics</a></li>
+            <li><a href ="#">Things to know after coming to US for Masters</a><i> - Upcoming</i></li>
+        </ol>
+            <!-- <p>This is a sample testing opnion for the blog</p> -->
             <p>
-                <b>India in Olympics</b>
+                <b>India in Olympics</b> <i> - 1 August '21</i>
             </p>
             <span>
                 According to the website <a href=" https://qz.com/2040225/by-population-these-countries-have-the-highest-olympic-medal-count/">Quartz</a>, an article was published correlating between the medal tally at Olympics and the population of the country; which the common audience would concur a direct proportionality that if the country has a larger population then the medal tally would be high as well. If you think in those terms then you are 1/3rd wrong. The United States and China have been performing as per their might but the second most populous nation in the world is absent from the list. For the 2020 Olympics at Tokyo, the country of New Zealand with a population of 5,100,000+ has a medal count of 11 and the country of Czech Republic, formed in 1993 after the dissolution of Czechoslovakia, has a medal count of 7 with a population of 10,000,000+. 
@@ -43,6 +56,5 @@
             <hr>
     </div> 
     <script src="script.js"></script>
-
 </body>
 </html>
